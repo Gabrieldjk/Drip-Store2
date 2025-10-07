@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(240deg, #0f5132, #14532d);
@@ -6,7 +5,6 @@ body {
   padding: 0;
   color: #fff;
 }
-
 
 header {
   background: linear-gradient(240deg, #0f5132, #14532d);
@@ -16,7 +14,6 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid #cccccc;
 }
-
 
 .logo img {
   height: 50px;
@@ -41,61 +38,70 @@ nav ul li a:hover {
   color: #38d16a;
 }
 
-
 main {
   padding-top: 60px;
 }
 
-
 .formulario {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 30px;
-  background: linear-gradient(240deg, #0f5132, #14532d);
-  border-radius: 0.5rem;
+  margin: 60px auto;
+  padding: 40px;
+  background: linear-gradient(240deg, #0e4027, #14532d);
+  border-radius: 12px;
   border: 2px solid #1a7f4e;
   color: #ffffff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
-
 
 .formulario h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
-  font-size: 1.75rem;
-  color: #e9fbe5;
-}
-
-
-.form-label {
+  margin-bottom: 30px;
+  font-size: 28px;
   font-weight: bold;
   color: #e9fbe5;
 }
 
-.form-control {
+form .form-group {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #c9f7d4;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #1a7f4e;
+  border-radius: 8px;
+  font-size: 16px;
   background-color: #1c2e25;
   color: #ffffff;
-  border: 1px solid #1a7f4e;
-  border-radius: 0.375rem;
 }
 
-
-.form-control::placeholder {
-  color: #c0e5d0;
+form textarea {
+  resize: vertical;
+  min-height: 100px;
 }
 
-.btn-enviar {
+form button {
+  width: 100%;
   background: linear-gradient(240deg, #1a7f4e, #0f5132);
   color: #fff;
   border: none;
-  padding: 12px 20px;
-  border-radius: 0.375rem;
+  padding: 14px;
+  border-radius: 8px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 18px;
+  cursor: pointer;
   transition: background 0.3s;
 }
 
-.btn-enviar:hover {
+form button:hover {
   background: linear-gradient(240deg, #218a5c, #126a3c);
 }
 
@@ -106,7 +112,6 @@ footer {
   padding: 20px;
   margin-top: auto;
 }
-
 
 footer .social a {
   color: #77e7a6;
@@ -132,7 +137,7 @@ footer .social a:hover {
   }
 
   .formulario {
-    margin: 20px;
-    padding: 20px;
+    margin: 30px 15px;
+    padding: 30px;
   }
 }
