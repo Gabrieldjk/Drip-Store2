@@ -1,12 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background: linear-gradient(180deg, #000000, #004d26);
   color: #ccffcc;
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+main {
+  flex: 1;
+}
 
 header {
   background: linear-gradient(90deg, #001a0d, #004d26);
@@ -26,7 +35,6 @@ header {
 .logo img {
   width: 60px;
 }
-
 
 nav ul {
   list-style: none;
@@ -52,10 +60,9 @@ nav a:hover {
   box-shadow: 0 0 10px #00ff88;
 }
 
-
 .sobre {
   max-width: 900px;
-  margin: 120px auto 60px; /* ajustado para cabeçalho fixo */
+  margin: 120px auto 60px;
   background: linear-gradient(145deg, rgba(0, 77, 38, 0.1), rgba(0, 0, 0, 0.1));
   padding: 30px;
   border-radius: 20px;
@@ -80,7 +87,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-
 footer {
   background: linear-gradient(90deg, #001a0d, #003d1f);
   color: #99ffcc;
@@ -99,7 +105,6 @@ footer .social a {
 footer .social a:hover {
   color: #66ffcc;
 }
-
 
 @media (max-width: 768px) {
   header {
@@ -124,7 +129,3 @@ footer .social a:hover {
     padding: 20px;
   }
 }
-}
-
-
-
