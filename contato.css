@@ -11,7 +11,7 @@ body {
 header {
   background: linear-gradient(90deg, #001a0d, #004d26);
   box-shadow: 0 2px 8px rgba(0, 255, 128, 0.25);
-  padding: 17px 30px;
+  padding: 15px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -193,6 +193,7 @@ footer .social a:hover {
     padding: 20px;
   }
 }
+
 
 
 
