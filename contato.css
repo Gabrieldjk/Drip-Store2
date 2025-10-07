@@ -73,7 +73,7 @@ footer .social a:hover {
 }
 
 
-.formulario {
+formulario {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
@@ -83,7 +83,7 @@ footer .social a:hover {
   color: #ffffff;
 }
 
-.formulario h2 {
+formulario h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 24px;
@@ -157,6 +157,7 @@ form button:hover {
     padding: 20px;
   }
 }
+
 
 
 
