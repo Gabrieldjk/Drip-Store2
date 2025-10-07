@@ -57,7 +57,7 @@ footer {
   background: linear-gradient(90deg, #001a0d, #003d1f);
   color: #99ffcc;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 20px;
   box-shadow: 0 -2px 8px rgba(0, 255, 128, 0.2);
 }
 
@@ -157,6 +157,7 @@ form button:hover {
     padding: 20px;
   }
 }
+
 
 
 
