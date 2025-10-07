@@ -1,0 +1,139 @@
+/* ======= GERAL ======= */
+body {
+  background: linear-gradient(180deg, #000000, #004d26);
+  color: #ccffcc;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======= CABEÇALHO ======= */
+header {
+  background: linear-gradient(90deg, #001a0d, #004d26);
+  box-shadow: 0 2px 8px rgba(0, 255, 128, 0.25);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #00ff88;
+  position: auto;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 60px;
+}
+
+/* ======= MENU ======= */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ccffcc;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+nav a:hover {
+  color: #000;
+  background: #00ff88;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+/* ======= SEÇÃO SOBRE ======= */
+.sobre {
+  max-width: 900px;
+  margin: 120px auto 60px; /* ajustado para cabeçalho fixo */
+  background: linear-gradient(145deg, rgba(0, 77, 38, 0.1), rgba(0, 0, 0, 0.1));
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.2);
+}
+
+.sobre h1 {
+  color: #00ff7f;
+  text-align: center;
+  text-shadow: 0 0 10px #00cc66;
+  margin-bottom: 30px;
+}
+
+.sobre h3 {
+  color: #00ff99;
+  margin-top: 20px;
+}
+
+.sobre p {
+  color: #ccffcc;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+  background: linear-gradient(90deg, #001a0d, #003d1f);
+  color: #99ffcc;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 -2px 8px rgba(0, 255, 128, 0.2);
+}
+
+footer .social a {
+  color: #00ff99;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer .social a:hover {
+  color: #66ffcc;
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    padding: 10px 15px;
+  }
+
+  .sobre {
+    margin: 100px 15px 50px;
+    padding: 20px;
+  }
+}
+
+.icone{
+    height: 35px ;
+}
+
+.icone2{
+    height:40px ;
+}
+
+.icone3{
+    height:75px ;
+}
+

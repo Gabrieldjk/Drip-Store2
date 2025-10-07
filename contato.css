@@ -1,0 +1,207 @@
+/* ======= GERAL ======= */
+body {
+  background: linear-gradient(180deg, #000000, #004d26);
+  color: #ccffcc;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======= CABEÇALHO ======= */
+header {
+  background: linear-gradient(90deg, #001a0d, #004d26);
+  box-shadow: 0 2px 8px rgba(0, 255, 128, 0.25);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #00ff88;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 60px;
+}
+
+/* ======= MENU ======= */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ccffcc;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+nav a:hover {
+  color: #000;
+  background: #00ff88;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+/* ======= FORMULÁRIO ======= */
+.formulario {
+  max-width: 600px;
+  margin: 120px auto 50px; /* margem ajustada para cabeçalho fixo */
+  background: linear-gradient(145deg, rgba(0, 77, 38, 0.8), rgba(0, 0, 0, 0.8));
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 128, 0.3);
+}
+
+.formulario h2 {
+  text-align: center;
+  color: #00ff7f;
+  text-shadow: 0 0 10px #00cc66;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #99ffcc;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 2px solid #00ff99;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ccffcc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+  border-color: #00ff88;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+.formulario button {
+  width: 100%;
+  background: linear-gradient(90deg, #00ff88, #00994d);
+  color: #000;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.formulario button:hover {
+  background: linear-gradient(90deg, #00cc66, #007a33);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ======= SEÇÃO SOBRE ======= */
+.sobre {
+  max-width: 900px;
+  margin: 60px auto;
+  background: rgba(0, 77, 38, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 128, 0.1);
+}
+
+.sobre h1 {
+  color: #00ff7f;
+  text-align: center;
+  text-shadow: 0 0 10px #00cc66;
+  margin-bottom: 30px;
+}
+
+.sobre h3 {
+  color: #00ff99;
+  margin-top: 20px;
+}
+
+.sobre p {
+  color: #ccffcc;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+  background: linear-gradient(90deg, #001a0d, #003d1f);
+  color: #99ffcc;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 -2px 8px rgba(0, 255, 128, 0.2);
+}
+
+footer .social a {
+  color: #00ff99;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer .social a:hover {
+  color: #66ffcc;
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    padding: 10px 15px;
+  }
+
+  .formulario {
+    margin: 100px 20px 50px;
+    padding: 30px;
+  }
+
+  .sobre {
+    margin: 50px 15px;
+    padding: 20px;
+  }
+}
+
+.icone{
+    height: 35px ;
+}
+
+.icone2{
+    height:40px ;
+}
+
+.icone3{
+    height:75px ;
+}
