@@ -1,4 +1,4 @@
-/* ======= GERAL ======= */
+
 body {
   background: linear-gradient(180deg, #000000, #004d26);
   color: #ccffcc;
@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-/* ======= CABEÇALHO ======= */
+
 header {
   background: linear-gradient(90deg, #001a0d, #004d26);
   box-shadow: 0 2px 8px rgba(0, 255, 128, 0.25);
@@ -27,7 +27,7 @@ header {
   width: 60px;
 }
 
-/* ======= MENU ======= */
+
 nav ul {
   list-style: none;
   display: flex;
@@ -52,7 +52,7 @@ nav a:hover {
   box-shadow: 0 0 10px #00ff88;
 }
 
-/* ======= SEÇÃO PRINCIPAL (CTA) ======= */
+
 .cta {
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ nav a:hover {
   align-items: center;
   text-align: center;
   height: 80vh;
-  padding: 200px 20px 50px 20px; /* ajustado para cabeçalho fixo */
+  padding: 200px 20px 50px 20px;
   background: linear-gradient(145deg, rgba(0,0,0,0.85), rgba(0,77,38,0.85));
   color: #ccffcc;
 }
@@ -77,7 +77,7 @@ nav a:hover {
   color: #ccffcc;
   margin-bottom: 10px;
 }
-/* ======= BANNER PROMOCIONAL ======= */
+
 .banner-promocao {
   background: linear-gradient(145deg, rgba(0,0,0,0.85), rgba(0,77,38,0.85));
   padding: 50px 30px;
@@ -85,7 +85,7 @@ nav a:hover {
   text-align: center;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,255,128,0.3);
-  border: 2px solid #00ff88; /* Borda adicionada */
+  border: 2px solid #00ff88; 
 }
 
 .banner-conteudo {
@@ -129,14 +129,14 @@ nav a:hover {
 }
 
 .banner-conteudo .imagem img {
-  max-width: 90%; /* Reduzi a imagem do tênis */
+  max-width: 90%; 
   height: auto;
   display: block;
   margin: 0 auto;
   border-radius: 20px;
 }
 
-/* ======= RESPONSIVIDADE ======= */
+
 @media (max-width: 768px) {
   .banner-promocao {
     flex-direction: column; 
@@ -160,7 +160,7 @@ nav a:hover {
 }
 
 
-/* ======= PRODUTOS ======= */
+
 .produtos {
   padding: 60px 40px;
   background: linear-gradient(180deg, #000000, #004d26);
@@ -225,7 +225,7 @@ nav a:hover {
   color: #fff;
 }
 
-/* ======= RODAPÉ ======= */
+
 footer {
   background: linear-gradient(90deg, #001a0d, #003d1f);
   color: #99ffcc;
@@ -244,6 +244,7 @@ footer .social a {
 footer .social a:hover {
   color: #66ffcc;
 }
+
 
 
 
