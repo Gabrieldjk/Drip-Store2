@@ -52,68 +52,24 @@ nav a:hover {
   box-shadow: 0 0 10px #00ff88;
 }
 
-/* ======= FORMULÁRIO ======= */
-.formulario {
-  max-width: 600px;
-  margin: 120px auto 50px;
-  background: linear-gradient(145deg, rgba(0, 77, 38, 0.8), rgba(0, 0, 0, 0.8));
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0, 255, 128, 0.3);
-}
-
-.formulario h2 {
-  text-align: center;
-  color: #00ff7f;
-  text-shadow: 0 0 10px #00cc66;
-  margin-bottom: 30px;
-  font-size: 2rem;
-}
-
-.formulario label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
+/* ======= RODAPÉ ======= */
+footer {
+  background: linear-gradient(90deg, #001a0d, #003d1f);
   color: #99ffcc;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 -2px 8px rgba(0, 255, 128, 0.2);
 }
 
-.formulario input,
-.formulario textarea {
-  width: 100%;
-  padding: 12px 15px;
-  margin-bottom: 20px;
-  border: 2px solid #00ff99;
-  border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #ccffcc;
-  font-size: 1rem;
-  transition: all 0.3s ease;
+footer .social a {
+  color: #00ff99;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
-.formulario input:focus,
-.formulario textarea:focus {
-  outline: none;
-  border-color: #00ff88;
-  box-shadow: 0 0 10px #00ff88;
-}
-
-.formulario button {
-  width: 100%;
-  background: linear-gradient(90deg, #00ff88, #00994d);
-  color: #000;
-  font-weight: bold;
-  padding: 12px;
-  border: none;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.formulario button:hover {
-  background: linear-gradient(90deg, #00cc66, #007a33);
-  color: #fff;
-  transform: translateY(-2px);
+footer .social a:hover {
+  color: #66ffcc;
 }
 
 /* ======= SEÇÃO SOBRE ======= */
@@ -194,6 +150,7 @@ footer .social a:hover {
     padding: 20px;
   }
 }
+
 
 
 
