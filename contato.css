@@ -19,7 +19,7 @@ header {
   border-bottom: 2px solid #00ff88;
   position: fixed;
   width: 100%;
-  top: 0;
+  top: 10;
   z-index: 1000;
 }
 
@@ -193,5 +193,6 @@ footer .social a:hover {
     padding: 20px;
   }
 }
+
 
 
